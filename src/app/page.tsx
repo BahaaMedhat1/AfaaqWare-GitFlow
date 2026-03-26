@@ -5,7 +5,7 @@ export default function page() {
   return (
     <div>
       <Title variant="primary" size="md">
-        this is
+        this is title
       </Title>
       <Navbar />
       <Footer />
