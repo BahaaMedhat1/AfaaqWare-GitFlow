@@ -7,6 +7,7 @@ import Eslam from "@/components/organisms/Eslam";
 import ServiceSection from "@/components/organisms/ServiceSection";
 import TeamSection from "../components/organisms/TeamSection";
 import StatisticsSection from "@/components/organisms/StatisticsSection";
+import CardSection from "@/components/organisms/cardSection";
 
 export default function page() {
   return (
@@ -20,6 +21,7 @@ export default function page() {
       <ServiceSection />
       <TeamSection />
       <StatisticsSection />
+      <CardSection />
     </div>
   );
 }
