@@ -1,4 +1,7 @@
-
 export default function Navbar() {
-  return <div className="bg-amber-500 text-white p-4 w-full">Navbar</div>;
+  return (
+    <div className="bg-gray-400 text-white w-full p-5 flex justify-center items-center">
+      Navbar
+    </div>
+  );
 }
