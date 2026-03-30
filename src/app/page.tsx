@@ -1,13 +1,9 @@
-import AboutSection from "@/Organisms/AboutSection";
-import HeroSection from "@/Organisms/HeroSection";
-import ServicesSection from "@/Organisms/ServicesSection";
+import HeaderSection from "@/Organisms/HeaderSection";
 
 export default function page() {
   return (
     <div>
-      <HeroSection />
-      <AboutSection />
-      <ServicesSection />
+      <HeaderSection />
     </div>
   );
 }
