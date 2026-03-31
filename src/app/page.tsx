@@ -1,13 +1,11 @@
-import HeaderSection from "@/Organisms/HeaderSection";
-import MainSection from "@/Organisms/MainSection";
-import FooterSection from "@/Organisms/FooterSection";
+import Cart from "@/Organisms/Cart";
+import Modal from "@/Organisms/Modal";
 
 export default function page() {
   return (
     <div>
-      <HeaderSection />
-      <MainSection />
-      <FooterSection />
+      <Cart />
+      <Modal />
     </div>
   );
 }
